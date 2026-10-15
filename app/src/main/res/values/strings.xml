@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NEWS</string>
+
+    <!-- Títulos -->
+    <string name="titulo_noticias">Noticias</string>
+    <string name="titulo_perfil">Perfil</string>
+    <string name="titulo_privacidad">Privacidad</string>
+    <string name="titulo_contactos">Contactos</string>
+
+    <!-- Login -->
+    <string name="logo_descripcion">Logo de NEWS</string>
+    <string name="etiqueta_correo">Correo</string>
+    <string name="etiqueta_clave">Contraseña</string>
+    <string name="ejemplo_correo">name@example.com</string>
+    <string name="ejemplo_clave">Mínimo 6 caracteres</string>
+    <string name="boton_ingresar">Ingresar</string>
+    <string name="boton_registrar">Registrar</string>
+    <string name="error_correo">Ingresa un correo válido</string>
+    <string name="error_clave">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="registro_simulado">El registro es simulado en esta versión</string>
+    <string name="bienvenida">Bienvenido, %1$s</string>
+
+    <!-- Noticias -->
+    <string name="noticia1_titulo">Apple Vision Pro</string>
+    <string name="noticia1_texto">Apple Vision Pro es un visor de realidad mixta que combina el contenido digital con el entorno real. Se controla con los ojos, las manos y la voz, y propone una nueva forma de ver contenido, usar aplicaciones y trabajar.</string>
+    <string name="noticia1_imagen">Persona usando el visor Apple Vision Pro</string>
+    <string name="noticia2_titulo">Meta Glasses</string>
+    <string name="noticia2_texto">Las gafas inteligentes de Meta integran cámara, micrófonos y altavoces en un diseño de uso diario. Permiten tomar fotos, escuchar música y usar un asistente de voz sin sacar el celular.</string>
+    <string name="noticia2_imagen">Persona sosteniendo unas gafas de montura negra</string>
+    <string name="icono_noticia">Icono de noticia</string>
+    <string name="compartir_descripcion">Compartir noticias</string>
+    <string name="compartir_con">Compartir con</string>
+    <string name="compartir_asunto">Noticias de NEWS</string>
+    <string name="compartir_texto">Mira estas noticias en NEWS:\n\n- Apple Vision Pro\n- Meta Glasses</string>
+
+    <!-- Perfil -->
+    <string name="nombre_usuario">Kristin Hennessy</string>
+    <string name="ubicacion_usuario">San Fransisco</string>
+    <string name="avatar_descripcion">Foto de perfil</string>
+    <string name="perfil_informacion">Información</string>
+    <string name="perfil_notificaciones">Notificaciones</string>
+    <string name="perfil_favoritos">Favoritos</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <!-- Menús -->
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_mensajes">Mensajes</string>
+    <string name="menu_privacidad">Privacidad</string>
+    <string name="menu_contactos">Contactos</string>
+    <string name="menu_central">Central</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="menu_llamar">Llamar</string>
+    <string name="menu_enviar_mensaje">Enviar mensaje</string>
+    <string name="msg_buscar">Búsqueda no disponible todavía</string>
+    <string name="msg_mensajes">No tienes mensajes nuevos</string>
+    <string name="msg_central">Central de ayuda no disponible todavía</string>
+    <string name="msg_acerca_de">NEWS v1.0 - Evaluación 02</string>
+    <string name="msg_seccion">Sección en construcción</string>
+    <string name="sin_aplicacion">No hay una aplicación disponible para esta acción</string>
+
+    <!-- Privacidad -->
+    <string name="privacidad_titulo">Reglas de Privacidad</string>
+    <string name="privacidad_parrafo1">La Política se aplica a todos los datos personales que los usuarios proporcionen de manera directa o a través de una tercera persona (encargado) cuando éste actúe según las instrucciones del usuario.</string>
+    <string name="privacidad_parrafo2">Los datos personales de los usuarios que emplean nuestros canales web son almacenados en sus correspondientes bancos de datos, los cuales se encuentran registrados ante la Autoridad Nacional de Protección de Datos Personales.</string>
+
+    <!-- Contactos -->
+    <string name="contactos_titulo">Listado de Contactos</string>
+    <string name="contactos_ayuda">Mantén presionado un contacto para ver sus opciones</string>
+    <string name="formato_contacto">%1$s: %2$s</string>
+</resources>

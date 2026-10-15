@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/gris_barra"
+        app:titleTextColor="@color/azul_oscuro" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_avatar"
+                android:contentDescription="@string/avatar_descripcion"
+                android:padding="28dp"
+                android:src="@drawable/ic_person" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/nombre_usuario"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:drawablePadding="4dp"
+                android:drawableStart="@drawable/ic_location"
+                android:drawableTint="@color/azul_oscuro"
+                android:gravity="center"
+                android:text="@string/ubicacion_usuario"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="28dp" />
+
+            <TextView
+                android:id="@+id/tvInformacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_person"
+                android:drawableTint="@color/azul_oscuro"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="@string/perfil_informacion"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvNotificaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_bell"
+                android:drawableTint="@color/azul_oscuro"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="@string/perfil_notificaciones"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvFavoritos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_globe"
+                android:drawableTint="@color/azul_oscuro"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="@string/perfil_favoritos"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        android:text="@string/cerrar_sesion"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cyan"
+        app:cornerRadius="2dp" />
+</LinearLayout>
